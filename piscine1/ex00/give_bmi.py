@@ -11,6 +11,12 @@ def give_bmi(height: list[int | float], weight: list[int | float]) -> list[int |
     BMI = weight (kg) / (height (m) ^ 2).
     """
 
+    if not isinstance(height, list):
+        raise ValueError("height must be a list")
+
+    if not isinstance(weight, list):
+        raise ValueError("weight must be a list")
+
     if len(height) != len(weight):
         raise ValueError("height and weight must have the same number of element")
 
@@ -37,6 +43,9 @@ def apply_limit(bmi: list[int | float], limit: int) -> list[bool]:
     Determine if each BMI value exceeds the given limit.
     Returns a list of booleans indicating whether each BMI is above the limit.
     """
+
+    if not isinstance(bmi, list):
+        raise ValueError("BMI must be a list")
 
     if not isinstance(limit, int) or limit <= 0:
         raise ValueError("Limit must be an positive integers")
