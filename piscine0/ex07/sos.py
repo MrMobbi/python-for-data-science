@@ -47,8 +47,13 @@ def main():
     assert len(sys.argv) == 2, "the arguments are bad"
     assert check_arg(sys.argv[1]), "the arguments are bad"
     string = sys.argv[1].lower()
+    count = 1
     for c in string:
-        print(MORSE_CODE[c], end="")
+        if count == len(string):
+            print(MORSE_CODE[c], end="")
+        else:
+            print(MORSE_CODE[c], end=" ")
+        count += 1
     print("")
 
 
