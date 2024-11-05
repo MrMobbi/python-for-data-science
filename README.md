@@ -36,8 +36,8 @@ In this introductory module, we cover the basics of Python programming. Topics i
 By the end of this module, you should be familiar with writing and running basic Python code, preparing you for data manipulation and analysis tasks.
 
 ### Module 1: Array Manipulation
-This module focuses on using the **Pandas** and **NumPy** library, a crucial tool in data science, to manipulate data. Topics include:
-- **DataFrames and Series**: Creating and working with Pandas and numpy core data structures.
+This module focuses on using the **NumPy** library, a crucial tool in data science, to manipulate data. Topics include:
+- **DataFrames and Series**: Creating and working with NumPy core data structures.
 - **Data loading and saving**: Loading data from CSV, and other file formats.
 - **Data cleaning and preprocessing**: Handling missing values, duplicates, and transforming data.
 - **Data analysis**: Using Pandas for filtering, grouping, and summarizing data.
