@@ -1,5 +1,5 @@
 
-from PIL import Image
+from PIL import Image, ImageFile
 import numpy as np
 
 
@@ -15,8 +15,8 @@ def ft_load(path: str) -> np.array:
     try:
         with Image.open(path) as img:
             image_array = np.array(img)
-        print(image_array.shape)
-        print(image_array)
+        print(f"The shape of the image is: {image_array.shape}")
+        return image_array
 
     except FileNotFoundError:
         print(f"Error: The file '{path}' was not found.")
