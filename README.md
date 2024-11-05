@@ -8,7 +8,7 @@ data manipulation, and various essential techniques used in data science workflo
 1. [Introduction](#introduction)
 2. [Modules](#modules)
    - [Module 0: Starting](#module-0-starting)
-   - [Module 1: Array Manipulation with Pandas](#module-1-array-manipulation-with-pandas)
+   - [Module 1: Array Manipulation with Pandas](#module-1-array-manipulation)
    - [Module 2: DataTable Usage](#module-2-datatable-usage)
    - [Module 3: Object-Oriented Programming (OOP)](#module-3-object-oriented-programming-oop)
    - [Module 4: Data-Oriented Design (DOD)](#module-4-data-oriented-design-dod)
@@ -35,9 +35,9 @@ In this introductory module, we cover the basics of Python programming. Topics i
 
 By the end of this module, you should be familiar with writing and running basic Python code, preparing you for data manipulation and analysis tasks.
 
-### Module 1: Array Manipulation with Pandas
-This module focuses on using the **Pandas** library, a crucial tool in data science, to manipulate data. Topics include:
-- **DataFrames and Series**: Creating and working with Pandas’ core data structures.
+### Module 1: Array Manipulation
+This module focuses on using the **Pandas** and **NumPy** library, a crucial tool in data science, to manipulate data. Topics include:
+- **DataFrames and Series**: Creating and working with Pandas and numpy core data structures.
 - **Data loading and saving**: Loading data from CSV, and other file formats.
 - **Data cleaning and preprocessing**: Handling missing values, duplicates, and transforming data.
 - **Data analysis**: Using Pandas for filtering, grouping, and summarizing data.
