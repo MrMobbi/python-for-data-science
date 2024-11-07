@@ -14,10 +14,12 @@ def main():
     crop_width, crop_heigth = (400, 400)
 
 #   caluculate the new corner of the image
-    top = (original_heigth - crop_heigth) // 2
-    bottom = (original_heigth + crop_heigth) // 2
-    left = (original_width - crop_width) // 2
-    right = (original_width + crop_width) // 2
+    top = ((original_heigth - crop_heigth) // 2) - 90
+    bottom = ((original_heigth + crop_heigth) // 2) - 90
+    left = ((original_width - crop_width) // 2) + 130
+    right = ((original_width + crop_width) // 2) + 130
+
+    print(top, bottom, left, right)
 
     cropped_img = img.crop((left, top, right, bottom))
     image_to_zoom = np.array(cropped_img)
