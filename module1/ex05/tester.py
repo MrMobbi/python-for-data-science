@@ -12,7 +12,8 @@ import matplotlib.pyplot as plt
 def main():
     img_orginal = ft_load("../landscape.jpg")
 
-    img_modified = ft_grey(img_orginal)
+    img_modified = ft_red(img_orginal)
+    print(img_modified[3])
     img = Image.fromarray(img_modified)
     plt.imshow(img)
     plt.show()
